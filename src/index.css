@@ -546,8 +546,152 @@ body{
     gap: 25px;
   }
 }
-@media screen and (max-width: 776px) {
 
+@media screen and (max-width: 776px) {
+  .navbar{
+    max-width: 560px;
+  }
+  .hamburger{
+    display: block;
+    margin-left: 300px;
+  }
+  .home{
+    margin: 0 220px;
+  }
+  .dreamhome{
+    font-size: 48px;
+    line-height: 105%; /* 96px */
+    letter-spacing: -1.92px;
+    }
+  .spanhome{
+    font-size: 48px;
+    line-height: 105%;
+    letter-spacing: -1.92px;
+   }
+   .homeparag{
+    font-size: 13px;
+    }
+   .consult-button{
+    margin: -30px -200px;
+    line-height: 35px; /* 285.714% */
+  }
+  .homeimage img{
+    width: 300px;
+    height: 310px;
+    margin: -140px 80px;
+  }
+  .rooms{
+    margin:150px 272px;
+  }
+  .roomimages{
+    margin-top: 150px;
+    margin-left: 70px;
+  }
+  .roomarrows{
+    margin-left: 20px;
+  }
+  .build-section{
+    margin: -50px 202px;
+  }
+  .buildimage{
+    width: 357px;
+    height: 410px;
+  }
+  .build-cover{
+    margin-left: -50px;
+  }
+  .buildproject{
+    font-size: 21px;
+  }
+  .buildicon3 , .buildicon1,
+  .buildicon2 {
+    display: flex;
+    gap: 30px;
+    margin: 25px 0 ;
+  }
+  .buildvalues-support{
+    font-size: 12px;
+  }
+  .buildsupport_images{
+    width: 64px;
+    height: 64px;
+  }
+ .buildvalues-sub_support{
+    display: none;
+  }
+  .Testimonial-section{
+    padding: 100px 175px;
+  }
+  .Testimonial-section_content{
+    margin-left: -150px;
+  }
+  .Testimonial-section_paragraph{
+    margin: 100px -80px;
+    font-size: 33px;
+  }
+  .Testimonial-section_paragraph_end{
+    margin: -130px -230px;
+  }
+  .project-section{
+    flex-direction: column;
+    align-items: center;
+    margin:90px;
+    margin-left: -30px;
+    gap: 50px;
+  }
+  .project-image{
+    width: 546.905px;
+  }
+  .Project-realization-archmove{
+    margin-top: 20px;
+    margin-left: 80px;
+  }
+  .Footer-head-archmove{
+    display: flex;
+    flex-direction: column;
+    margin-top:-150px;
+    margin-left: -80px;
+  }
+  .footer-paragraph{
+    margin-left: 70px;
+    font-size: 50px;
+  }
+  .footer_partners{
+   display: flex;
+   margin: 25px 50px;
+   padding-bottom: 25px;
+   gap: 200px;
+   align-items: center;
+  }
+  .footer_partners1{
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 25px;
+   gap: 60px;
+  }
+  .footer_partners2{
+   display: flex;
+   flex-direction: column;
+   padding-bottom: 25px;
+   gap: 60px;
+  }
+  .footer-contacts{
+   display: flex;
+   justify-content: space-between;
+   margin-left: 260px;
+  }
+  .footer-contact-info{
+   display: flex;
+   flex-direction: column;
+   margin-top: 120px;
+   margin-right: -100px;
+   text-align: center;
+   z-index: 1;
+  }
+   .footer_logos {
+   margin-right: 300px;
+  }
+    
 }
 
 @media screen and (max-width: 550px) {
@@ -561,33 +705,33 @@ body{
     display: block;
     margin-left: 200px;
   }
-.home{
+ .home{
     margin: 0 50px;
   }
- .dreamhome{
+  .dreamhome{
     margin: -30px ;
     font-size: 58px;
     line-height: 105%; /* 96px */
     letter-spacing: -1.92px;
     }
- .spanhome{
+  .spanhome{
     font-size: 58px;
     line-height: 105%;
     letter-spacing: -1.92px;
     }
-.homeparag{
+   .homeparag{
     margin: 70px -22px ;
     }
-.consult-button{
+   .consult-button{
     margin: -30px -22px;
     line-height: 35px; /* 285.714% */
     }
-.homeimage img{
+   .homeimage img{
       width: 430px;
       height: 400px;
       margin: 50px -22px;
     }
-.rooms{
+   .rooms{
       margin:-100px 265px;
       display: flex;
       align-items: center;
@@ -609,10 +753,10 @@ body{
     .roomsphoto{
       width: 306px;
       height: 432px;
-    }
+     }
     .build-section{
       margin: -260px 20px;
-    }
+     }
     .buildbody{
       padding: 340px 0px;
       flex-direction: column;
@@ -620,13 +764,13 @@ body{
       }
     .buildroom{
       margin-left: -65px;
-    }
+     }
     .build-cover{
       margin-left: 32px;
-    }
+     }
     .buildproject{
       font-size: 48px;
-    }
+     }
     .build-consult_button{
       padding: 8px 100px;
       margin-top: -550px;
@@ -727,7 +871,7 @@ body{
         text-align: center;
         z-index: 1;
         }
-.footer_logos {
+      .footer_logos {
         margin-right: 300px;
         }
 }

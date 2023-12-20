@@ -9,7 +9,8 @@ import Logos1 from '././assets/logooh.png';
 
 
 const Footer = () => {
- return ( 
+ 
+return ( 
         <footer className='Footer-head-archmove'>
         <div><p className='footer-paragraph'>Our Partners</p>
         <div className="footer_partners"> 
@@ -37,7 +38,8 @@ const Footer = () => {
                 <img id='footer_photo' src={Logos1} alt="" />
             </div>
         </div>
-           </div>
+           
+        </div>
         </footer>
      );
 }
