@@ -11,11 +11,8 @@ const Photo = () => {
             <img className='roomsphoto' src={Image2} alt="" srcset="" />
             <img className='roomsphoto' src={Image3} alt="" srcset="" />
             <img className='roomsphoto' src={Image4} alt="" srcset="" />
-            
         </div>
-         
-        
-     );
+    );
 
      
 }

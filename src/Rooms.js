@@ -11,9 +11,7 @@ const Rooms = () => {
             <div className="roomarrows">
             <img src={Icon} alt="" />
             <img src={Icon1} alt="" />
-
         </div>
-        
         </div>
     );
 }

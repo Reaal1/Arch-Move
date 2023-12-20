@@ -10,10 +10,7 @@ import Footer from './Footer';
 
 
 function App() {
- 
-  
   return (
-    
     <div className="App">
       <Navbar />
       <div className="content">
@@ -27,10 +24,7 @@ function App() {
       <Testimonial />
       <Project />
       <Footer />
-      
-      
-    </div>
-    
+      </div>
   );
 }
 

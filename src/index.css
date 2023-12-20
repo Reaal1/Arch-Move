@@ -1,16 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
-
 *{
   margin: 0;
-  font-family: "Quicksand";
+  font-family: "inter", "Playfair Display";
   background-color: var(--primary-color);
-  
 }
 body{
   color: #000106;
 }
 :root{
- 
  --primary-color: #edf2fc;
   --secondary-color: #212121; 
 }
@@ -18,13 +14,13 @@ body{
   --primary-color: #000106;
   --secondary-color: #fff;
 }
+
+/* Navbar Section */
+
 .navbar-photo{
   margin-right: 2rem;
-  
 }
-
 .navbar{
-  padding: 0 10px;
   display: flex;
   height: 80px;
   align-items: center;
@@ -33,15 +29,17 @@ body{
   justify-content: space-between;
   border-bottom: 1px solid #f2f2f2;
 }
-.navbar h1{
-  color: #A8DF8E;
-}
 .navbar-links {
   flex: 1;
   display: flex;
+  font-family: 'Inter';
+  font-size: 13px;
+  font-weight: 500;
   justify-content: flex-start;
   margin-left: auto;
   align-items: center;
+  line-height: 40px; /* 285.714% */
+  letter-spacing: 0.14px;
   color: var(--secondary-color);
 }
 .navbar-links_content{
@@ -60,35 +58,39 @@ body{
    margin-top: 10px;
 }
 .navbar-buttons{
-  
-  
   display: flex;
   justify-content: center;
   align-items: center;
   padding-left: 200px;
   margin: 0 auto;
-  
 }
 .clickin{
   color: var(--secondary-color);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 40px; /* 285.714% */
+  letter-spacing: 0.14px;
 }
 .clickup{
-  padding: 15px 20px;
-  align-items: center;
+  padding: 13px 17px;
+  text-align: center;
   gap: 10px;
   margin-left: 10px;
   background-color:#FD665E ;
   border-radius: 4px;
   color:  var(--secondary-color);
   border-radius: 7px;
+  font-family: 'Inter';
+  font-size: 14px;
 }
 #moon_icon {
-width: 20px;
-background-color: #FD665E;
-border-radius: 20px;
-cursor: pointer;
+  width: 20px;
+  background-color: #FD665E;
+  border-radius: 20px;
+  cursor: pointer;
 } 
-
 .content{
   max-width: 600px;
   margin: 40px auto;
@@ -99,64 +101,42 @@ cursor: pointer;
   cursor: pointer;
 }
 
+/* Dream Home Section */
 
-
-/* blog previews */
-.blog-preview {
-  padding: 10px 16px;
-  margin: 20px 0;
-  border-bottom: 1px solid #fafafa;
-}
-.blog-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
-
-}
-.blog-preview h2 {
-  font-size: 20px;
-  color: #A8DF8E;
-  margin-bottom: 8px;
-}
-
-/* Dream Home */
 .dreamhome{
   margin: -30px -200px;
   color: var(--secondary-color);
-  font-family: Playfair Display;
-  font-size: 98px;
+  font-family: "Playfair Display";
+  font-size: 90px;
   font-style: normal;
-  font-weight: 800;
+  font-weight: 600;
   line-height: 100%; /* 96px */
   letter-spacing: -1.92px;
-  
 }
-
 .spanhome{
   color: #FD665E;
   font-family: Playfair Display;
-  font-size: 98px;
-  font-style: normal;
-  font-weight: 800;
+  font-size: 86px;
+  font-weight: 600;
   line-height: 100%;
   letter-spacing: -1.92px;
 }
-
 .homeparag{
   margin: 70px -200px;
   color: var(--secondary-color);
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 160%; /* 25.6px */
 }
-
 .consult-button{
   margin: -10px -200px;
   background-color: #FD665E;
   padding: 10px 14px;
   color: #FFF;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -164,16 +144,16 @@ cursor: pointer;
   letter-spacing: 0.14px;
   border-radius: 7px;
 }
-
 .homeimage img{
   width: 570px;
   height: 400px;
   margin: -172px 187px;
-  
 }
 
+/* Rooms Section */
+
 .rooms{
-  margin:200px 245px;
+  margin:250px 245px;
   display: flex;
   align-items: center;
   gap: 350px;
@@ -181,8 +161,8 @@ cursor: pointer;
 .roomsparagh{
   margin: -10px -103px;
   color: var(--secondary-color);
-  font-family: Playfair Display;
-  font-size: 53px;
+  font-family: "Playfair Display";
+  font-size: 49px;
   font-style: normal;
   font-weight: 800;
   line-height: 124%; /* 59.52px */
@@ -202,51 +182,42 @@ cursor: pointer;
   margin-left: 145px;
   gap: 22px;
 }
-
 .roomsphoto{
   width: 255px;
   height: 432px;
 }
-.buildbody{
-padding: 120px 145px;
-display: flex;
-justify-content: center;
-align-items: center;
-gap: 90px;
-}
 
+/* Build Section */
+
+.buildbody{
+ padding: 120px 145px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ gap: 90px;
+}
 .buildimage{
   width: 457px;
   height: 510px;
 }
 .buildproject{
   color: var(--secondary-color);
-  font-family: Playfair Display;
-  font-size: 45px;
-  font-style: normal;
-  font-weight: 800;
+  font-family: "Playfair Display";
+  font-size: 46px;
 }
 .buildcontent{
   padding-top: 10px ;
-  
 }
-
 .buildicon3 , .buildicon1,
  .buildicon2 {
   display: flex;
   gap: 30px;
   margin: 25px 0 ;
-  }
-
-  /*.buildvalues{
-    flex-direction: column;
-    
-  } */
-
-  .buildvalues-support{
+}
+.buildvalues-support{
     margin-bottom: 20px ;
     color: var(--secondary-color);
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
@@ -255,10 +226,9 @@ gap: 90px;
     width: 64px;
     height: 64px;
   }
-
-  .buildvalues-sub_support{
+.buildvalues-sub_support{
     color: var(--secondary-color);
-    font-family: Inter;
+    font-family: "Inter";
     font-size: 16px;
     font-style: normal;
     font-weight: 300;
@@ -267,8 +237,7 @@ gap: 90px;
     display: flex;
     justify-content: center;
     align-items: center;
-    
- }
+  }
  .build-consult_button{
   display: flex;
   padding: 8px 29px;
@@ -279,21 +248,21 @@ gap: 90px;
   background: #FD665E;
   color: #FFF;
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 14px;
-  font-style: normal;
   font-weight: 600;
   line-height: 40px; /* 285.714% */
   letter-spacing: 0.14px;
  }
 
- .Testimonial-section{
+ /* Testimonial Section */
+
+.Testimonial-section{
   padding: 160px 145px;
  }
-
 .Testimonial-section_header{
   color: var(--secondary-color);
-  font-family: Playfair Display;
+  font-family: "Playfair Display";
   font-size: 48px;
   font-style: normal;
   font-weight: 800;
@@ -311,7 +280,7 @@ gap: 90px;
 }
 .Testimonial-section_paragraph{
   color: var(--secondary-color);
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 33px;
   font-style: normal;
   font-weight: 400;
@@ -320,7 +289,7 @@ gap: 90px;
 }
 .Testimonial-section_paragraph1{
   color: var(--secondary-color);
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -332,54 +301,45 @@ gap: 90px;
   padding: 0px 285px;
   align-items: center;
   justify-content: space-between;
-  
 }
 .Testimonial-section_photo{
  display: flex;
  gap: 1rem;
  margin-right: -95px;
- 
+}
+.Testimonial-section_photo_content{
+ width: 38px;
+ height: 38px;
 }
 
-.Testimonial-section_photo_content{
- 
-  width: 38px;
-  height: 38px;
-  
- 
-}
+/* Project Section */
 
 .project-section{
   display: flex;
   align-items: center;
   padding: 20px 120px;
   gap: 50px;
-  
 }
-
 .Project-realization{
   color: var(--secondary-color);
   text-align: center;
-  font-family: Playfair Display;
-  font-size: 64px;
-  font-style: normal;
+  font-family: "Playfair Display";
+  font-size: 60px;
   font-weight: 800;
-  line-height: 100%; /* 64px */
+  line-height: 120%; /* 64px */
   letter-spacing: -1.28px;
 }
-.Project-realization-archmove{
+.Project-realizaion-archmove{
   margin-top: 70px;
 }
 .project-span{
   color: #FD665E;
-  font-family: Playfair Display;
-  font-size: 64px;
-  font-style: normal;
+  font-family: "Playfair Display";
+  font-size: 60px;
   font-weight: 800;
-  line-height: 100%;
+  line-height: 120%;
   letter-spacing: -1.28px;
 }
-
 .project-button{
   margin: 48px 150px;
   display: flex;
@@ -391,16 +351,17 @@ gap: 90px;
   border-radius: 7px;
   background-color: #FD665E;
   align-items: center; 
-  
+  font-family: "inter";
 }
+
+/* Footer Section */
+
 .Footer-head-archmove{
   padding: 136px 128px;
 }
-
 .footer-contacts{
   display: flex;
   justify-content: space-between;
- 
 }
 .footer-contact-info{
   display: flex;
@@ -422,333 +383,341 @@ gap: 90px;
   display: flex;
   margin: 25px 0px;
   padding-bottom: 25px;
-  gap: 80px;
+  gap: 60px;
   align-items: center;
 }
-
 .footer_partners1{
   display: flex;
   align-items: center;
-  
-  gap: 60px;
-  }
-
-  .footer_partners2{
+  gap: 75px;
+}
+.footer_partners2{
     display: flex;
     align-items: center;
-    
-    gap: 60px;
+    gap: 75px;
   }
-
 .footer-image1{
   width: 102.675px;
   height: 25px;
-  
 }
-
 .footer-image2{
   width: 143.917px;
   height: 25px;
-  
 }
-
 .footer-image3{
   width: 123.745px;
   height: 30.748px;
-  color: var(--primary-color);
 }
-
 .footer-image4{
   width: 82.216px;
   height: 25px;
-  color: var(--primary-color);
 }
-
 .footer-image5{
   width: 91.848px;
   height: 25px;
-  color:var(--primary-color);
-}
-
+  }
 .footer-image6{
   width: 88.368px;
   height: 50px;
-  color: var(--primary-color);
 }
 #footer_photo{
  padding-top: 60px ;
- 
- 
 }
-
 .footer-paragph-content{
   text-decoration: none;
   color: var(--secondary-color);
   text-align: center;
-  font-family: Inter;
+  font-family: "Inter";
   font-size: 14px;
-  font-style: normal;
   font-weight: 500;
   line-height: 40px; /* 285.714% */
   letter-spacing: 0.14px;
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 1028px){
+  .navbar{
+    max-width: 960px;
+  }
+  .navbar-links {
+    font-size: 11px;
+    font-weight: 800;
+  }
+  .home{
+    margin-left: 20px;
+  }
+  .roomsparagh{
+    margin: 10px -205px;
+  }
+  .roomimages{
+    margin: 0 40px;
+  }
+  .build-section{
+    margin: 0 -104px;
+  }
+  .Testimonial-section{
+    margin: 0 -100px;
+  }
+  .project-section{
+    margin: 0 -100px;
+  }
+  .Footer-head-archmove{
+    margin: 0 -55px;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  .navbar{
+    max-width: 860px;
+  }
+  .navbar-links {
+    font-size: 9px;
+    font-weight: 800;
+  }
+  .home{
+    margin-left: 70px;
+  }
+  .homeimage img{
+    width: 470px;
+  }
+  .clickin{
+    font-size: 10px;
+    font-weight: 900;
+  }
+  .clickup{
+    padding: 10px 7px;
+    font-size: 13px;
+   }
+   .home{
+    margin-left: 120px;
+  }
+  .homeimage img{
+    width: 370px;
+  }
+}
+
+@media screen and (max-width: 876px) {
+  .navbar{
+    max-width: 760px;
+  }
   .navbar-links{
     display: none;
-    
   }
-
-  
   .hamburger{
     display: block;
-    padding-left:160px ;
-    
+    margin-left: 450px;
   }
-
-  .home{
-    padding-left: 20px;
+  .rooms{
+  gap: 290px;
   }
-
-  .dreamhome{
-    margin: -30px ;
-    color: var(--secondary-color);
-    font-family: Playfair Display;
-    font-size: 58px;
-    font-style: normal;
+  .buildimage{
+  width: 377px;
+  height: 459px;
+  }
+  .buildproject{
+  font-size: 36px;
+  }
+  .buildvalues-support{
+    margin-bottom: 5px ;
+  }
+  .project-image{
+    width: 436.905px;
+  }
+  .Project-realization{
+    font-size: 40px;
     font-weight: 800;
-    line-height: 100%; /* 96px */
+    line-height: 120%; /* 64px */
+    letter-spacing: -1.28px;
+  }
+  .project-span{
+    font-size: 40px;
+  }
+  .project-button{
+    margin: 48px 150px;
+    display: flex;
+    padding: 15px 40px;
+  }
+  .Project-realization-archmove{
+    margin-left: -90px;
+  }
+  .footer_partners{
+    gap: 30px;
+  }
+  .footer_partners1, .footer_partners2{
+    gap: 25px;
+  }
+}
+@media screen and (max-width: 776px) {
+
+}
+
+@media screen and (max-width: 550px) {
+  .navbar{
+    max-width: 460px;
+  }
+  .navbar-links{
+    display: none;
+  }
+  .hamburger{
+    display: block;
+    margin-left: 200px;
+  }
+.home{
+    margin: 0 50px;
+  }
+ .dreamhome{
+    margin: -30px ;
+    font-size: 58px;
+    line-height: 105%; /* 96px */
     letter-spacing: -1.92px;
     }
-
-    .spanhome{
-        color: #FD665E;
-        font-family: Playfair Display;
-        font-size: 58px;
-        font-style: normal;
-        font-weight: 800;
-        line-height: 100%;
-        letter-spacing: -1.92px;
-      
+ .spanhome{
+    font-size: 58px;
+    line-height: 105%;
+    letter-spacing: -1.92px;
     }
-
-
-    .homeparag{
-      margin: 70px -22px ;
-      color: var(--secondary-color);
-      font-family: Inter;
-      font-size: 16px;
-      font-style: normal;
-      font-weight: 400;
-      line-height: 160%; /* 25.6px */
+.homeparag{
+    margin: 70px -22px ;
     }
-
-    .consult-button{
-      margin: -30px -22px;
-      background-color: #FD665E;
-      padding: 10px 14px;
-      color: #FFF;
-      text-align: center;
-      font-family: Inter;
-      font-size: 14px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: 40px; /* 285.714% */
-      letter-spacing: 0.14px;
-      border-radius: 7px;
+.consult-button{
+    margin: -30px -22px;
+    line-height: 35px; /* 285.714% */
     }
-
-    .homeimage img{
+.homeimage img{
       width: 430px;
       height: 400px;
       margin: 50px -22px;
-      
     }
-
-    .rooms{
-      margin:-100px 245px;
+.rooms{
+      margin:-100px 265px;
       display: flex;
       align-items: center;
-      gap: 350px;
-    }
+      gap: 320px;
+   }
     .roomsparagh{
       margin: -220px;
-      color: var(--secondary-color);
-      font-family: Playfair Display;
       font-size: 53px;
-      font-style: normal;
-      font-weight: 800;
-      line-height: 124%; /* 59.52px */
-      letter-spacing: -0.96px;
     }
     .roomarrows{
-      width: 40px;
-      height: 40px;
-      display: flex;
-      gap: 10px;
       margin-top: 250px;
       margin-left: -520px;
     }
-
-    .roomimages{
+   .roomimages{
       display: flex;
       margin-top: 150px;
-      margin-left: 22px;
-      gap: 22px;
+      margin-left: 50px;
     }
-    
     .roomsphoto{
       width: 306px;
       height: 432px;
     }
-
     .build-section{
       margin: -260px 20px;
     }
-
     .buildbody{
       padding: 340px 0px;
-      display: flex;
       flex-direction: column;
       gap: 50px;
       }
-
     .buildroom{
-      margin-left: -45px;
+      margin-left: -65px;
     }
-
+    .build-cover{
+      margin-left: 32px;
+    }
     .buildproject{
-      color: var(--secondary-color);
-      font-family: Playfair Display;
       font-size: 48px;
-      font-style: normal;
-      font-weight: 800;
     }
-    
-  .build-consult_button{
-      display: flex;
+    .build-consult_button{
       padding: 8px 100px;
       margin-top: -550px;
-      align-items: center;
-      gap: 10px;
-      border-radius: 4px;
-      background: #FD665E;
-      color: #FFF;
-      text-align: center;
-      font-family: Inter;
       font-size: 14px;
-      font-style: normal;
-      font-weight: 600;
-      line-height: 40px; /* 285.714% */
-      letter-spacing: 0.14px;
-     }
-
-     .Testimonial-section{
-      padding: 100px 32px;
-     }
-
+      }
+    .Testimonial-section{
+      padding: 100px 160px;
+      }
      .Testimonial-cover{
       margin-left: -200px;
       }
-
      .Testimonial-section_paragraph{
       margin: 100px -80px;
       color: var(--secondary-color);
       font-size: 33px;
-     }
-
+      }
      .Testimonial-section_paragraph_end{
-      margin: -130px -100px;
+      margin: -130px -30px;
       display: flex;
       flex-direction: column;
-     }
+      }
      .Testimonial-section_paragraph1{
       margin-left: -53px;
       color: var(--secondary-color);
       }
-  
-    .Testimonial-section_photo{
-     display: flex;
-     gap: 1rem;
-     margin: 40px;
-     margin-left: -150px;
-     
-    }
-    
+     .Testimonial-section_photo{
+      display: flex;
+      gap: 1rem;
+      margin: 40px;
+      margin-left: -90px;
+      }
     .Testimonial-section_photo_content{
-     width: 38px;
+      width: 38px;
       height: 38px;
     }
-
-    .project-section{
+   .project-section{
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 80px ;
-      padding-right: 230px;
+      padding-right: 140px;
       gap: 50px;
-      
     }
-
-    .project-image{
-      width: 406.905px;
-    }
-
-    .Project-realization-archmove{
+   .project-image{
+      width: 456.905px;
+     }
+   .Project-realization-archmove{
       margin-top: 20px;
       margin-left: 80px;
     }
-
-    .Project-realization{
-      color: var(--secondary-color);
-      text-align: center;
+   .Project-realization{
       font-size: 58px;
      }
-
-     .project-button{
+     .project-span{
+      font-size: 58px;
+     }
+   .project-button{
       display: flex;
       padding: 16px 92px;
-      
-    }
-
-    .Footer-head-archmove{
-      display: flex;
-      flex-direction: column;
-      margin-top: -180px;
       }
-
-      .footer-paragraph{
+   .Footer-head-archmove{
+      flex-direction: column;
+      margin-top:-100px;
       margin-left: -30px;
+    }
+   .footer-paragraph{
+      margin-left: 70px;
       font-size: 50px;
     }
-
-    .footer_partners{
+   .footer_partners{
       display: flex;
-      margin: 25px -60px;
+      margin: 25px 50px;
       padding-bottom: 25px;
       gap: 60px;
       align-items: center;
     }
-
-    .footer_partners1{
+   .footer_partners1{
       display: flex;
       flex-direction: column;
       padding-bottom: 25px;
       gap: 60px;
       }
-
-      .footer_partners2{
+   .footer_partners2{
         display: flex;
         flex-direction: column;
         padding-bottom: 25px;
         gap: 60px;
       }
-
-      .footer-contacts{
+   .footer-contacts{
         display: flex;
         justify-content: space-between;
-        
-        margin-left: 60px;
+         margin-left: 170px;
       }
       .footer-contact-info{
         display: flex;
@@ -757,16 +726,9 @@ gap: 90px;
         margin-right: -100px;
         text-align: center;
         z-index: 1;
-        
         }
-
-      .footer_logos {
+.footer_logos {
         margin-right: 300px;
-        
-      }
-
-      
-
-      
+        }
 }
 

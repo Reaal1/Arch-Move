@@ -14,10 +14,7 @@ const Home = () => {
             <div className='homeimage'>
             <img src={Asset} alt="asset" />
             </div>
-
-        </div>
-                    
-        
+      </div>
     );
 }
 

@@ -5,20 +5,11 @@ import Logoz3 from '././assets/Logoz (9).png';
 import Logoz4 from '././assets/Logoz (10).png';
 import Logoz5 from '././assets/Dunez.png';
 import Logos1 from '././assets/logooh.png';
-import LogoDark from '././assets/logos-darkmode.png';
+
 
 
 const Footer = () => {
-  /*  var footer_photo = document.getElementById("footer_photo");
-    footer_photo.onclick = function () {
-        document.body.classList.toggle("dark-theme"); 
-        if(document.body.classList.contains('dark-theme')){
-            footer_photo.src = LogoDark;}
-    else{
-            footer_photo.src = Logos;
-        }
-    } */
-    return ( 
+ return ( 
         <footer className='Footer-head-archmove'>
         <div><p className='footer-paragraph'>Our Partners</p>
         <div className="footer_partners"> 
@@ -46,8 +37,7 @@ const Footer = () => {
                 <img id='footer_photo' src={Logos1} alt="" />
             </div>
         </div>
-           
-        </div>
+           </div>
         </footer>
      );
 }

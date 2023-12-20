@@ -5,7 +5,6 @@ import Icon2 from '././assets/icon (2).png';
 
 const Build = () => {
     return ( 
-        
         <div className='build-section'>
             <div className='buildbody'>
             <div className='buildroom'>
@@ -43,9 +42,7 @@ const Build = () => {
                 <button className='build-consult_button'>Free Consultation</button>
             </div>
             </div>
-
-        
-     );
+    );
 }
  
 export default Build;
