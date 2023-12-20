@@ -6,15 +6,8 @@ import sun from '././assets/sun.png';
 import hamburger1 from '././assets/tabler_menu.png';
 
 const Navbar = () => {
-    /* PLS TAKE NOTE - This works on my device after deployment with react,
-     but tends to give an error later, noticed this while using react to develop app, 
-     but this codes works perfectly on my local device(server) i.e developing without react,
-     misbehaves with react , but works after trying it out a couple of times */
-    
-   /* So Kindly take the symbols of the comment off to enable the black and white background change,
-    when moon button is clicked */
-
- /*  var moon_icon = document.getElementById("moon_icon");
+    /* This misbehaves with react , but works after trying it out a couple of times */
+  /* var moon_icon = document.getElementById("moon_icon");
     moon_icon.onclick = function () {
         document.body.classList.toggle("dark-theme"); 
         if(document.body.classList.contains('dark-theme')){
@@ -23,7 +16,6 @@ const Navbar = () => {
             moon_icon.src = moon;
         }
     } */
-    
 
  /*  const hamburgerBar = document.querySelector(".hamburger");
 const navBar = document.querySelector(".navbar-links");

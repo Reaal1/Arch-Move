@@ -763,14 +763,17 @@ body{
       gap: 50px;
       }
     .buildroom{
-      margin-left: -65px;
+      margin-left: -85px;
      }
     .build-cover{
-      margin-left: 32px;
+      margin-left: 30px;
      }
     .buildproject{
       font-size: 48px;
      }
+     .buildvalues-sub_support{
+      display: block;
+    }
     .build-consult_button{
       padding: 8px 100px;
       margin-top: -550px;
@@ -779,28 +782,20 @@ body{
     .Testimonial-section{
       padding: 100px 160px;
       }
-     .Testimonial-cover{
-      margin-left: -200px;
+     .Testimonial-section_mark{
+        margin-left: -45px;
       }
-     .Testimonial-section_paragraph{
-      margin: 100px -80px;
-      color: var(--secondary-color);
-      font-size: 33px;
-      }
-     .Testimonial-section_paragraph_end{
-      margin: -130px -30px;
-      display: flex;
-      flex-direction: column;
+    .Testimonial-section_paragraph_end{
+        flex-direction: column;
       }
      .Testimonial-section_paragraph1{
-      margin-left: -53px;
-      color: var(--secondary-color);
+      margin-left: -165px;
       }
-     .Testimonial-section_photo{
+      .Testimonial-section_photo{
       display: flex;
       gap: 1rem;
       margin: 40px;
-      margin-left: -90px;
+      margin-left: -265px;
       }
     .Testimonial-section_photo_content{
       width: 38px;
@@ -810,7 +805,7 @@ body{
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding-right: 140px;
+      padding-right: 10px;
       gap: 50px;
     }
    .project-image{
@@ -832,7 +827,7 @@ body{
       }
    .Footer-head-archmove{
       flex-direction: column;
-      margin-top:-100px;
+      margin-top:-150px;
       margin-left: -30px;
     }
    .footer-paragraph{
