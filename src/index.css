@@ -5,6 +5,7 @@
 }
 body{
   color: #000106;
+  height: 870vh;
 }
 :root{
  --primary-color: #edf2fc;
@@ -549,11 +550,11 @@ body{
 
 @media screen and (max-width: 776px) {
   .navbar{
-    max-width: 560px;
+    max-width: 500px;
   }
   .hamburger{
     display: block;
-    margin-left: 300px;
+    margin-left: 270px;
   }
   .home{
     margin: 0 220px;
@@ -870,4 +871,115 @@ body{
         margin-right: 300px;
         }
 }
+@media screen and (max-width: 361px) {
+  .navbar-photo {
+    width: 95%;
+    margin-left: 44px;
+  } 
+  #moon_icon{
+    margin-right: 20px;
+    margin-bottom: 5px;
+  }
+  .bar{
+    width: 80%;
+    margin-right: 40px;
+  }
+  .dreamhome{
+    font-size: 45px;
+  }
+  .spanhome{
+    font-size: 45px;
+  }
+  .homeimage img{
+    width: 135%;
+    height: 40vh;
+  }
+  .roomsparagh{
+    font-size: 39px;
+  }
+  .roomarrows{
+    margin-left: -400px;
+  }
+  .roomimages{
+    display: flex;
+    flex-direction: column;
+  }
+  .roomsphoto {
+    width: 100%;
+    height: 40vh;
+  }
+  .buildimage {
+    margin-left: 90px;
+    width: 80%;
+    height: 40vh;
+  }
+  .buildvalues-sub_support {
+   font-size: 13px;
+  }
+  .buildproject {
+    font-size: 35px;
+  }
+  .build-consult_button {
+    padding: 6px 70px;
+    margin-top: -550px;
+    font-size: 14px;
+  }
+  .Testimonial-section_header {
+    margin-left: -15px;
+    font-size: 30px;
+  }
+  .Testimonial-section_mark {
+    margin-left: -45px;
+  }
+  .Testimonial-section_paragraph{
+    font-size: 20px;
+  }
+  .Testimonial-section_paragraph1 {
+    margin-left: -40px;
+  }
+  .Testimonial-section_photo{
+    margin-right: -130px;
+  }
+  .project-image {
+    width: 190%;
+    margin-left: -60px;
+  }
+  .Project-realization {
+    margin-left: -45px;
+    font-size: 40px;
+  }
+  .project-span {
+    font-size: 40px;
+  }
+  .Project-realization-archmove{
+    margin-left: 30px;
+  }
+  .project-button {
+   padding: 10px 80px;
+  }
+  .Footer-head-archmove{
+    margin-left: -130px;
+  }
+  .footer-paragraph {
+    margin-left: 80px;
+    font-size: 36px;
+  }
+  .footer-image1 {
+    width: 60%;
+    height: 25px;
+  }
+  .footer-image2 {
+    width:50%;
+    height: 25px;
+  }
+  hr{
+    margin-left: 75px;
+  }
+  .footer-contacts{
+    margin-left: 145px;
+  }
+ 
+  
+}
+
 

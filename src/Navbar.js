@@ -58,7 +58,7 @@ document.querySelectorAll(".navbar-links_content").forEach(n => n.addEventListen
                 <div className="hamburger">
                 <img className='bar' src={hamburger1} alt="" />
             </div>
-                <img id='moon_icon'  src={moon} alt="/" />
+                <img  id='moon_icon'  src={moon} alt="/" />
             </nav>
      );
 }

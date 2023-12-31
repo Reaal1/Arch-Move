@@ -12,7 +12,7 @@ const Home = () => {
             <br />project management for the best result.</p>
             <button className="consult-button">Free Consultation</button>
             <div className='homeimage'>
-            <img src={Asset} alt="asset" />
+            <img className='homephoto' src={Asset} alt="asset" />
             </div>
       </div>
     );
